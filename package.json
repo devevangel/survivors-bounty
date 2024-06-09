@@ -1,0 +1,38 @@
+{
+  "name": "survivors-bounty",
+  "version": "1.0.0",
+  "description": "This game is a 2D play-to-earn, top-down survival shooter exclusively available as a web-based game for computers. Players must survive endless waves of increasingly tough zombies, aiming to last as long as possible. As players progress, they can pick up new weapons and level up their characters. The game offers multiple modes, providing diverse and engaging gameplay experiences.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devevangel/survivors-bounty.git"
+  },
+  "keywords": [
+    "2D",
+    "game",
+    "shooter",
+    "survival",
+    "arcade",
+    "multiplayer",
+    "play-to-earn"
+  ],
+  "author": "Evangel Iheukwumere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devevangel/survivors-bounty/issues"
+  },
+  "homepage": "https://github.com/devevangel/survivors-bounty#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
